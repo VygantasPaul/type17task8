@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Libre Franklin', sans-serif;
+  
+}
+.container {
+  width: 850px;
+  margin: 170px auto;
+  
+}
+th, td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+} 
+table {
+  border-collapse: collapse;
+}
+
+td:nth-child(even) {
+  background-color: #c2cccc;
+}
+
+table thead {
+  border-color: aqua;
+  background-color: #111616;
+  color: #fff;
+}
+
+
+table tbody {
+  border-color: rgb(30, 42, 42);
+  background-color: #D6EEEE;
+}
